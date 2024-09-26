@@ -31,7 +31,6 @@ header h1 {
 }
 
 .event-container {
-    
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -39,7 +38,7 @@ header h1 {
 }
 
 .event-card {
-    background-color:white; 
+    background-color: white;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
@@ -47,13 +46,9 @@ header h1 {
     border-radius: 10px;
 }
 .event-card1 {
-    background-color:white; 
-    color: black;
-    padding: 20px;
+    color: white;
     text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;   
+    width: 300px;   
 }
 
 .event-card img {
@@ -71,13 +66,11 @@ header h1 {
 .event-card h4 {
     margin: 15px 0;
     font-size: 1.5em;
-    color: black;
+    color: white;
     text-align: center;
 }
 
 .event-card p {
-    background-color:white; 
-    color: black;
     margin: 5px 0;
     font-size: 0.9em;
 }
@@ -147,7 +140,8 @@ header h1 {
 }
 
 .info a{
-    
+    text-decoration:  none;
+    color: #fff;
     background: rgb(36,32,30);
     margin: 26px 0;
     padding: 10px 18px;
