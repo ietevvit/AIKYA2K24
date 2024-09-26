@@ -75,6 +75,8 @@ header h1 {
 }
 
 .event-card p {
+    background-color:white; 
+    color: black;
     margin: 5px 0;
     font-size: 0.9em;
 }
